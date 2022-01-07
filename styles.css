@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: fantasy;
+    font-weight: bold;
+    text-align: center;
+}
+/*bah bah*/
+.centerBox {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.num-show {
+    border: 2px solid red;
+    width: 400px;
+    text-align: right;
+    font-size: 36px;
+    padding: 5px 22px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.number,
+.all,
+.clear {
+    box-sizing: border-box;
+    background-color: #a7a7a7;
+    border-radius: 50%;
+    width: 86px;
+    height: 86px;
+    padding-top: 25px;
+}
+
+.all {
+    background-color: red;
+}
+
+.clear {
+    background-color: red;
+}
+
+.result {
+    border-radius: 5px;
+    display: block;
+    width: 90px;
+    height: 50px;
+    font-size: 36px;
+}
+
+.num-display tr,
+td {
+    padding: 10px 6px 0 0;
+    cursor: pointer;
+}
+
+.number,
+.result,
+.all,
+.clear {
+    transition: 0.8s;
+    box-shadow: 0px 1.2px 7px black;
+}
+
+.number:hover {
+    background-color: #666868;
+}
+
+.zarb,
+.menha,
+.tagsim,
+.sum {
+    background-color: rgb(114, 228, 21);
+}
+
+.number .zarb,
+.number .menha,
+.number .sum,
+.number .tagsim:hover {
+    background-color: #135805;
+}
+
+.result:hover,
+.all:hover,
+.clear:hover {
+    background-color: rgb(143, 3, 3);
+}
